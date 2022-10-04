@@ -50,7 +50,6 @@ class MoneyTransferTest {
         assertEquals(secondBalanceBefore + replenishSum, cards.getSecondCardBalance());
     }
 
-    @Disabled
     @Test
     void shouldTransferMoneyBetweenOwnCardsV3() {
         // тест падает - проводит перевод большей суммы, чем есть в наличии - баг
