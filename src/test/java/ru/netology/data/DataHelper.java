@@ -6,9 +6,9 @@ public class DataHelper {
   private DataHelper() {}
 
   @Value
-  public static class CardsInfo {
-    private String first;
-    private String second;
+  public static class CardInfo {
+    String number;
+    String id;
   }
 
   public static CardsInfo getCardsInfo() {
